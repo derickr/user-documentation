@@ -84,11 +84,18 @@ The above commands all install the standard `hhvm` package, which is the stable,
 # If you are getting segfaults
 sudo apt-get install hhvm-dbg
 
+# If you need to compile HHVM extensions
+sudo apt-get install hhvm-dev
+
 # Living on the edge (rebuilt everyday, unstable)
 sudo apt-get install hhvm-nightly
 
 # Segfaults in the nightly
 sudo apt-get install hhvm-nightly-dbg
+
+# Compiling HHVM extensions in the nightly
+sudo apt-get install hhvm-nightly-dev
+
 ```
 
 ## Mirrors 
